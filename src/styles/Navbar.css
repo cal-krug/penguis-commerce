@@ -1,0 +1,50 @@
+.navbar {
+    max-width: 100%;
+    min-height: 80px;
+    height: auto;
+    max-height: 100px;
+    
+    background-color: #121619;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar div.rightside {
+    display: flex;
+}
+
+button.hamburger-menu {
+    display: none;
+}
+
+
+div.leftside .logo {
+    width: 100%;
+
+    min-height: 2em;
+    max-height: 5em;
+}
+
+/* When the width of the screen is 600px (avg. mobile device), do this: */
+@media screen and (max-width: 600px) {
+
+    .navbar .rightside a {
+        display: none;
+    }
+
+    button.hamburger-menu {
+        display: inline-flex;
+    }
+
+}
+
+
+
+/* When the width of the screen is 250px, do this: */
+@media screen and (max-width: 250px) {
+
+    div.leftside .logo {
+        display: none;
+    }
+
+}
