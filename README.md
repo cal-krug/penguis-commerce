@@ -1,3 +1,8 @@
+# Dependencies
+`npm install react-router-dom`
+`npm install @mui/icons-material`
+`npm install @emotion/styled`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
