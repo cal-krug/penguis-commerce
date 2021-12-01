@@ -8,7 +8,12 @@
 }
 /* Clear formatting */
 body {
+  background-color: #333333;
   padding: 0;
   margin: 0;
+}
+
+div, p {
+  color: white;
 }
 
