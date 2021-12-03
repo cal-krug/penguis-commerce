@@ -16,6 +16,29 @@
     flex-grow: 1;
 }
 
+.navbar #open .hiddenLinks {
+    display: inherit;
+    /* margin shorthand attributes: top, right, bottom, left */
+    margin: 3em 0em 3em 2em;
+}
+
+.navbar .hiddenLinks a {
+    text-decoration: none;
+    color:#61dafb;
+}
+
+.navbar .hiddenLinks a:hover {
+    color:white;
+}
+
+.navbar #close .hiddenLinks {
+    display: none;
+}
+
+.navbar #open .logo {
+    display: none;
+}
+
 .navbar .rightside {
     display: inline-flex;
     justify-content: space-evenly;
@@ -74,6 +97,10 @@
 
     .navbar button.burger-menu {
         justify-content: flex-end;
+    }
+
+    .hiddenLinks {
+        display: none;
     }
 
 }
