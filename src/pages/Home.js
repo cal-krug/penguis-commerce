@@ -6,12 +6,12 @@ import "../styles/Home.css";
 
 function Home() {
     return (
-    <div className="home">
+    <div className="home"
+    style={{ backgroundImage: `url(${BannerImage})` }}
+    >
         <div
-        className="headerContainer"
-        style={{ backgroundImage: `url(${BannerImage})` }}
-        >
-            <h1> STAR REACT Labs </h1>
+        className="headerContainer">
+            <h1> REACTion Labs </h1>
             <p> FOR CHRIST, HONOR, GLORY </p>
             <Link to="menu">
                 <button> BUY PRODUCT </button>
