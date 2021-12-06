@@ -10,12 +10,12 @@ export const MenuList = [
     {
         name: "Alien Assistant",
         image: itemAlienAssistant,
-        price: 125000.00,
+        price: '125,000.00',
     },
     {
         name: "Cosmonaut Spacesuit",
         image: itemCosmonautSpacesuit,
-        price: 82000.00,
+        price: '82,000.00',
     },
     {
         name: "Rubber Chicken",
