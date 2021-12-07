@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function MenuItem({ image, name, price }) { // Accept props and render UI based on props
     return (
@@ -13,4 +13,4 @@ function MenuItem({ image, name, price }) { // Accept props and render UI based 
     )
 }
 
-export default MenuItem
+export default MenuItem;

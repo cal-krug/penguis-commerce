@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ProductPage from './pages/ProductPage';
+
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           <Route path="*" element={<NotFound />} />
           <Route path="/" exact element={<Home />} />
           <Route path="/shop" exact element={<Menu />} />
-
+          {/* PROB | this is a link to the product page, with generated link and info
+          https://www.better.dev/route-parameters-with-react-router */}
+          <Route path="/shop/itemName" exact element={<ProductPage />} />
         </Routes>
         <Footer />
       </Router>

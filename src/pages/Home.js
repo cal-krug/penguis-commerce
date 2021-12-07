@@ -13,12 +13,12 @@ function Home() {
         className="headerContainer">
             <h1> REACTion Labs </h1>
             <p> FOR CHRIST, HONOR, GLORY </p>
-            <Link to="menu">
-                <button> BUY PRODUCT </button>
+            <Link to="shop">
+                <button> OUR PRODUCTS </button>
             </Link>
         </div>
     </div>
     )
 }
 
-export default Home
+export default Home;
